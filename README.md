@@ -1,2 +1,1 @@
-# Pristaterdate-demo
 # demopristater
