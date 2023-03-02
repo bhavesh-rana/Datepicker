@@ -6,6 +6,7 @@ import {
   StyleSheet,
   Text, 
   TouchableOpacity,
+  NativeModules,
   View,
 } from 'react-native';
 import React, {useEffect, useState} from 'react';
@@ -15,8 +16,8 @@ import Heder from '../commen/Heder';
 import InputBox from './InputBox';
 import {useDispatch, useSelector} from 'react-redux';
 import {Timesheet} from '../Redux/action/action';
- 
 
+ 
 const First = () => {
   const dispatch = useDispatch();
   const [dates, setDate] = useState(new Date());
@@ -146,7 +147,7 @@ const First = () => {
     }
   }, [endDates, dates]);
 
-  console.log('selectselect', select);
+ // console.log('selectselect', select);
  
   const onSubMit = () => { 
     if(select.length>0){ 
