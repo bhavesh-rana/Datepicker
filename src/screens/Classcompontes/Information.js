@@ -305,7 +305,7 @@ class Information extends Component {
             alignSelf: 'center',
             padding: 10,
           }}>
-          <Text style={{color: '#fff'}}>NEXT API CALL</Text>
+          <Text  style={{color: '#fff'}}>NEXT API CALL</Text>
         </TouchableOpacity>
       </View>
     );
