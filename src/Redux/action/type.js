@@ -1,3 +1,10 @@
 export const TIMESHEET= 'TIMESHEET';
 export const STARTDATE='STARTDATE';
 export const ENDDATE='ENDDATE';
+export const USERS_DATA='USERS_DATA';
+export const COUNTER_CHANGE = 'COUNTER_CHANGE';
+export const END_RESULT="END_RESULT";
+export const APICALLCLASS="APICALLCLASS";
+export const GET_USERS_FETCH="GET_USERS_FETCH"
+export const GET_USERS_SUCCESS="GET_USERS_SUCCESS"
+

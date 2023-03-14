@@ -16,7 +16,7 @@
 // }
 import React from "react";
 import { View } from "react-native";
-import FlashMessage from "react-native-flash-message";
+// import FlashMessage from "react-native-flash-message";
 
 export default function MyScreen() {
   return (
@@ -25,7 +25,7 @@ export default function MyScreen() {
       <View ref={"otherView2"} />
       <View ref={"otherView3"} />
       {/* GLOBAL FLASH MESSAGE COMPONENT INSTANCE */}
-      <FlashMessage position="top" /> {/* <--- here as the last component */}
+      {/* <FlashMessage position="top" /> <--- here as the last component */}
     </View>
   );
 }

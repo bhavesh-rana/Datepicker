@@ -17,20 +17,17 @@ const NativeModule = () => {
     if (Platform.OS == 'ios') {
       if (mode == 1) {
         await NativeModules.Counter.increment(value => {
-          console.log(value);
-          setOnoffManage(value);
+           setOnoffManage(value);
         });
       } else {
         await NativeModules.Counter.off(value => {
-          console.log(value);
-          setOnoffManage(value);
+           setOnoffManage(value);
         });
       }
     } else {
       xyz.lightOn(mode, (err, valu) => {
         if (err) return console.log(err);
-        console.log('valu', valu);
-        setOnoffManage(valu);
+         setOnoffManage(valu);
       });
     }
   };

@@ -3,7 +3,7 @@ import {TIMESHEET} from '../action/type';
 const INITIAL_STATE = [];
 const Alldatareducer = (state = INITIAL_STATE, action) => {
   //console.log('state', state[action?.payload?.id]);
-  console.log('=>>>>>>.+', action?.payload);
+ // console.log('=>>>>>>.+', action?.payload);
  // state.map(it => it.map(res=> console.log("res",res?.id)));
   //console.log("action?.payload",action?.payload?.id);
 

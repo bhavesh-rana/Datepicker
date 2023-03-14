@@ -22,8 +22,7 @@ export default function InputBox({data, dataIndex}) {
   const sendDates = Number('' + data.map(item => item?.startdateTimestaps));
   const endDates = Number('' + data.map(item => item?.enddateTimestaps));
 
-   console.log('log', data);
-  const dispatch = useDispatch();
+   const dispatch = useDispatch();
   const [dates, setDate] = useState(new Date(sendDates));
   const [endDate, setEndDate] = useState(new Date(endDates));
 
