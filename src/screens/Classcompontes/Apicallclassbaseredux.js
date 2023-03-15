@@ -71,7 +71,7 @@ export default function Apicallclassbaseredux() {
   return (
     <View>
       <FlatList
-        data={data?.users}
+        data =   {data?.users}
         renderItem={({item}) => {
           return (
             <View>
