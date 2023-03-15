@@ -1,7 +1,6 @@
   const convert=(endDate,startDate)=>{
    // setDate(str);
-    //console.log("dates",str.toISOString().split('T')[0]);
-       let date_1 = new Date(endDate);
+        let date_1 = new Date(endDate);
        let date_2 = new Date(startDate);
        let difference = date_1.getTime() - date_2.getTime();
        const days = Math.floor(difference / (24 * 60 * 60 * 1000));
@@ -12,8 +11,7 @@
        const minutess = Math.floor(hoursms / (60 * 1000));
        const DurationHoverss = hourss + temhover;
        const DurationsMins = minutess;
-        console.log("DurationHoverss",DurationHoverss,DurationsMins);
-    //    var date = new Date(str),
+     //    var date = new Date(str),
     //      month = ('0' + (date.getMonth() + 1)).slice(-2),
     //      day = ('0' + date.getDate()).slice(-2),
     //      hours = ('0' + date.getHours()).slice(-2),
